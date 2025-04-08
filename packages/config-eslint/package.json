@@ -1,8 +1,7 @@
 {
   "name": "@devades/eslint-config",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "type": "module",
-  "private": true,
   "exports": {
     ".": "./index.js",
     "./next": "./next.js",
@@ -22,5 +21,22 @@
     "globals": "^16.0.0",
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.29.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lari-ks/turbo-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "turbo config",
+    "devade"
+  ],
+  "author": "lara sweeney",
+  "bugs": {
+    "url": "https://github.com/lari-ks/turbo-config/issues"
+  },
+  "homepage": "https://github.com/lari-ks/turbo-config#readme",
+  "publishConfig": {
+  "registry": "https://npm.pkg.github.com"
+}
 }

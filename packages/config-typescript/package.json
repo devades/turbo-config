@@ -1,9 +1,22 @@
 {
   "name": "@devades/typescript-config",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.0.2",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lari-ks/turbo-config.git"
+  },
+  "keywords": [
+    "typescript",
+    "turbo config",
+    "devade"
+  ],
+  "author": "lara sweeney",
+  "bugs": {
+    "url": "https://github.com/lari-ks/turbo-config/issues"
+  },
+  "homepage": "https://github.com/lari-ks/turbo-config#readme",
   "publishConfig": {
-    "access": "public"
-  }
+  "registry": "https://npm.pkg.github.com"
+}
 }

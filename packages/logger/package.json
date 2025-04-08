@@ -1,8 +1,7 @@
 {
   "name": "@devades/logger",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "type": "module",
-  "private": true,
   "files": [
     "dist"
   ],
@@ -29,17 +28,34 @@
     "test": "jest"
   },
   "jest": {
-    "preset": "@repo/jest-presets/node"
+    "preset": "@devades/jest-presets/node"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
-    "@repo/eslint-config": "workspace:*",
-    "@repo/jest-presets": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@devades/eslint-config": "workspace:*",
+    "@devades/jest-presets": "workspace:*",
+    "@devades/typescript-config": "workspace:*",
     "@types/node": "^22.14.0",
     "bunchee": "^6.4.0",
     "eslint": "^9.24.0",
     "jest": "^29.7.0",
     "typescript": "5.8.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lari-ks/turbo-config.git"
+  },
+  "keywords": [
+    "logger",
+    "turbo config",
+    "devade"
+  ],
+  "author": "lara sweeney",
+  "bugs": {
+    "url": "https://github.com/lari-ks/turbo-config/issues"
+  },
+  "homepage": "https://github.com/lari-ks/turbo-config#readme",
+  "publishConfig": {
+  "registry": "https://npm.pkg.github.com"
+}
 }

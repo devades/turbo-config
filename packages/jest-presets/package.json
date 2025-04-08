@@ -1,7 +1,6 @@
 {
   "name": "@devades/jest-presets",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.0.2",
   "license": "MIT",
   "files": [
     "browser/jest-preset.ts",
@@ -13,5 +12,22 @@
   },
   "devDependencies": {
     "jest-environment-jsdom": "^29.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lari-ks/turbo-config.git"
+  },
+  "keywords": [
+    "jest",
+    "turbo config",
+    "devade"
+  ],
+  "author": "lara sweeney",
+  "bugs": {
+    "url": "https://github.com/lari-ks/turbo-config/issues"
+  },
+  "homepage": "https://github.com/lari-ks/turbo-config#readme",
+  "publishConfig": {
+  "registry": "https://npm.pkg.github.com"
+}
 }
